@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('imagenes/Citas.jpg') no-repeat;
+    background-size: 120% 100%;
+    background-attachment: fixed;
+  } 
+  
+  .box {
+    width: 99.5%;
+    background: rgba(2, 2, 2, 0.863);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 15px;
+    /* box-shadow: 7px 13px 37px black; */
+  }
+  
+  .box-img {
+    border-radius: 50%;
+  }
+  
+  .box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+  }
+  
+  .box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px
+  }
+  
+  .box p {
+    text-align: justify;
+  }
+  
+  .box ul {
+    margin-top: 20px;
+    list-style: none;
+  }
+  .box ul li {
+    display: inline-block;
+  }
+  .box ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    transition: all .5s ease-in-out;
+    display: block;
+  }
+  
+  .box ul li a:hover {
+    color:#b9b9b9;
+    transform: scale(1.3);
+  }
+
+  header{
+      width: 99.5%;
+      margin: auto;
+      background-color: rgba(1, 1, 1, 0.87);
+      color: white;
+      height: 200px;
+      padding-top: 20px;
+      padding-left: 20px;
+  }
+  header > h1{
+    font-size: 300%;
+    padding-top: 3%;
+    margin-left: 35%;
+    float: center;
+  }
+  .logo
+  {
+    width: 25%;
+    float: left;
+  }
+  .icono
+  {
+    width: 50%;
+  }
+  .icono2
+  {
+    width: 45%;
+  }  
+  .icono3
+  {
+    width: 49%;
+  } 
+  .menu1{
+    float: center;
+    list-style: none;
+    overflow: hidden;
+    width: 99.5%;  
+    margin: auto;
+    padding: auto;
+    background: rgba(255, 255, 255, 0.932);
+    
+}
+.limenu{
+    float: left;
+    display: block;
+    text-align: center;  
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.limenu > a{
+    text-decoration: none;
+    color: black;
+  }
+  .limenur{
+    float: right;
+    display: block;
+    text-align: center;  
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.limenur > a{
+    text-decoration: none;
+    color: black;
+  }  
+.contenido{
+  display: inline-block;
+  margin: auto;
+  width: 33%;
+  margin-bottom: 2%;
+  background-color: rgba(255, 255, 255, 0.932);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1E1E1E;
+  border-radius: 15px;
+  padding: 10px;
+}
+.contenido a{
+  text-align: center;
+}
+
+main{
+    width: 96%;
+  text-align: center;
+  padding-top: 2%;
+  margin: auto;
+}
+.link1{
+  color: rgb(5, 5, 5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+#mapa{
+  margin: auto;
+  width: 90%;
+}
+.cont{
+  width: 40%;
+ display: inline-block;
+ font-size: 18px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ text-align: center;
+ margin: 30px;
+ background-color: rgba(255, 255, 255, 0.932);
+ color: rgb(0, 0, 0);
+}
+#pesa{
+  font-size: 50px;
+  float: right;
+  margin-right: 28%;
+  padding-top: 3%;
+}
+#iniciar{
+  display: inline-block;
+  margin: auto;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.932);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1E1E1E;
+  border-radius: 15px;
+  padding: 10px;
+}
+article
+{
+  display: top;
+  margin: auto;
+  width: auto;
+  background-color: rgba(1, 1, 1, 0.863);
+}
+#tabla_prod{
+  margin: auto;
+  border-spacing: 35px;
+  text-align: center;
+  
+}
+.img_prod{
+  width: 90%;
+  height: 90%;
+}
+.recuadros{
+  border-radius: 35px;
+  background-color: rgba(255, 255, 255, 0.932);
+}
+.recuadros:hover{
+  background-color: #414141;
+  color: azure;
+}
+.MenudEditable
+{
+  margin: auto;
+  width: 98%;
+  background-color: rgba(201, 194, 194, 0.8);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1E1E1E;
+  border-radius: 15px;
+  padding: 10px; 
+}
+.img_list
+{
+  width: 60%;
+  margin: 1%;
+}
+.recu_dit
+{
+  border-style: solid;
+  border-color: #1E1E1E;
+  width: 10%;
+  margin-right: 10%
+}
+#recu_img
+{
+  border-style: solid;
+  border-color: #1E1E1E;
+  width: 1%;
+  margin-right: 12%
+  
+}
+.paypal
+{
+  margin-left: 10%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contratacion{
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+  margin-bottom: 2%;
+  background-color: rgba(201, 194, 194, 0.8);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1E1E1E;
+  border-radius: 15px;
+  padding: 10px;
+}
+.formularios{
+  font-size: 8;
+  color:#FFFF;
+  width: 20pc;
+} 
+
+.btnProdu{
+  width:60%;
+  height:60%;
+}
+.acer{
+  width: 99.5%;
+    background: rgba(2, 2, 2, 0.863);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 15px;
+}
+
+.acer h2 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin: 30px 0 20px;
+}
+
+.acer h3 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 30px
+}
+.rino1{
+  color:#f08d2e;
+}
+.tablaForm{
+  border-spacing: 15px;
+  margin: auto;
+  float: center;
+}
+
+.botonn{
+  width: 80%;
+  height: 80%;
+}
+.editarIns{
+  margin: auto;
+  width: auto;
+  background-color: rgba(1, 1, 1, 0.863);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1E1E1E;
+  border-radius: 15px;
+  padding: 5px;
+}
+.editarIns a{
+  color: #ffffff;
+}
+.formularios a{
+  color: #ffffff;
+}
+#centrar{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #fffdfd;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.tablaForm1{
+  border-spacing: 20px;
+  margin: auto;
+}
+.izquierda{
+  text-align: left;
+}
